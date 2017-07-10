@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1486396815464
+Build-Date: 2017-02-06
+Build-Revision: 32f12502c077b387f35129e72c72934fc1168bcf
+Build-Time: 17:00:08.811+0100
+Built-By: hansolo
+Bundle-Description: Assembles a bundle containing the main classes.
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0;description=
+ Apache License Version 2.0;link=https://www.eclipse.org/legal/eplfaq.ph
+ p
+Bundle-ManifestVersion: 2
+Bundle-Name: Medusa
+Bundle-SymbolicName: eu.hansolo.medusa
+Bundle-Version: 7.6.0
+Created-By: 1.8.0_121 (Oracle Corporation)
+Export-Package: eu.hansolo.medusa;uses:="eu.hansolo.medusa.events,eu.han
+ solo.medusa.tools,javafx.application,javafx.beans,javafx.beans.property
+ ,javafx.collections,javafx.event,javafx.geometry,javafx.scene.control,j
+ avafx.scene.image,javafx.scene.layout,javafx.scene.paint,javafx.scene.s
+ hape,javafx.scene.text,javafx.stage";version="7.6.0",eu.hansolo.medusa.
+ tools;uses:="eu.hansolo.medusa,javafx.geometry,javafx.scene,javafx.scen
+ e.canvas,javafx.scene.image,javafx.scene.paint,javafx.scene.shape,javaf
+ x.scene.text";version="7.6.0",eu.hansolo.medusa.skins;uses:="eu.hansolo
+ .medusa,eu.hansolo.medusa.events,javafx.beans,javafx.collections,javafx
+ .scene.control,javafx.scene.input,javafx.scene.paint";version="7.6.0",e
+ u.hansolo.medusa.events;uses:="eu.hansolo.medusa";version="7.6.0"
+Implementation-Title: Medusa
+Implementation-Version: 7.6
+Import-Package: eu.hansolo.medusa,eu.hansolo.medusa.events,eu.hansolo.me
+ dusa.skins,eu.hansolo.medusa.tools,javafx.animation,javafx.application,
+ javafx.beans,javafx.beans.property,javafx.beans.value,javafx.collection
+ s,javafx.event,javafx.geometry,javafx.scene,javafx.scene.canvas,javafx.
+ scene.control,javafx.scene.effect,javafx.scene.image,javafx.scene.input
+ ,javafx.scene.layout,javafx.scene.paint,javafx.scene.shape,javafx.scene
+ .text,javafx.scene.transform,javafx.stage,javafx.util
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: Medusa
+Specification-Version: 7.6
+Tool: Bnd-3.0.0.201509101326

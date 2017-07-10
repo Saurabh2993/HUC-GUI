@@ -1,0 +1,53 @@
+.main_panel {	
+	-fx-background: rgb(255, 255, 255);
+}
+
+#connection_panel {
+	-fx-alignment: baseline-center;
+	-fx-font-weight: bold;
+	-fx-vgap: 16;
+}
+
+#slider_pusher .thumb {
+	-fx-background-color: #050002;
+}
+
+#arduion_health_status_label {
+	-fx-font-weight: bold;
+	-fx-text-alignment: center;
+}
+
+#slider_pod .thumb {
+	
+	/*-fx-background-image: url("cincy_bearcats.png");*/
+	
+}
+
+#slider_pusher .track {
+	-fx-background-color: #000000;
+	-fx-pref-height: 0;
+}
+
+#slider_pod .track {
+	-fx-background-color: #e00122;
+	-fx-pref-height: 1;
+}
+
+#left_spm_btn {
+/*	-fx-font-weight: bold;	*/
+	-fx-font-size: 20px;
+}
+
+#stop_spm_btn {
+/*	-fx-font-weight: bold;	*/
+	-fx-font-size: 20px;
+}
+ 
+#right_spm_btn {
+/*	-fx-font-weight: bold;	*/
+	-fx-font-size: 20px;
+}
+
+.button {
+	-fx-font-weight: bold;
+}
